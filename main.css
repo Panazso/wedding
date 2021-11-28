@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* Single-direction margin declaration to establish vertical rhythm. */
+/* Egyirányú margó deklaráció a függőleges ritmus kialakításához. */
 h1,h2,h3,
 ul,ol,
 p,
@@ -63,7 +63,7 @@ a:hover {
 =============================*/
 
 .cover {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  background: url('assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
   display: table;
   text-align: center;
   height: 100vh;
@@ -72,7 +72,7 @@ a:hover {
 @media (min-width: 768px) {
 
   .cover {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+    background: url('assets/wedding-landing-cover.jpg') no-repeat center/cover;
   }
 
 }
@@ -91,7 +91,7 @@ a:hover {
 .hero-text h1 {
   font-size: 3.15rem;
   color: #d2ba87;
-  margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
+  margin-bottom: 0; /* Az egyirányú margó deklaráció hatásának érvénytelenítése. */
 }
 @media (min-width: 768px) {
 
@@ -102,7 +102,7 @@ a:hover {
   }
 
   .hero-text h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
 }
@@ -200,7 +200,7 @@ a:hover {
 
 .program h2 {
   font-family: 'Great Vibes', cursive;
-  margin-top: 1rem; /* To account for the unequal margins compared to the previous section. */
+  margin-top: 1rem; /* Az előző szakaszhoz képesti egyenlőtlen margók figyelembevétele. */
   text-align: center;
 }
 
@@ -229,7 +229,7 @@ a:hover {
   height: 7.5rem;
 }
 
-.gifts p:last-child {   /* To even out the bottom and top margins of this section. */
+.gifts p:last-child {   /* A szakasz alsó és felső margóinak kiegyenlítése érdekében. */
   margin-bottom: 0;
 }
 /* =============================
@@ -246,7 +246,7 @@ a:hover {
 }
 
 .faq h2 {
-  margin-top: 1rem; /* To even out top and bottom margins. */
+  margin-top: 1rem; /* A felső és alsó margók kiegyenlítésére. */
 }
 
 .faq p {
